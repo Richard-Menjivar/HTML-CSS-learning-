@@ -12,7 +12,27 @@
 .container{
   width:95%;
   margin:auto;
+  }
+
+button[type="submit"] {
+    background-color: #595555;
+    color: #f4f4f4
 }
+
+button:hover{
+    background: #C60A07;
+    color:#f4f4f4;
+
+}
+
+a{
+text-decoration: none;
+color: #000;
+}
+a:hover{
+    color: #C60A07;
+}
+
 .box-1{
   background-color:#333;
   color:#fff;
@@ -22,18 +42,37 @@
 }
 
 .container h1 {
-margin-left:100px
-
+display:flex;
+ justify-content: center;
 }
-
 .box-2{
 
-  border: 3px double #D17121;
-margin-left:20px;
-    margin-right:520px
+ display:flex;
+ justify-content: center;
+}
 
+.box-2 table{
+    border: 2px double #D18B21;
 }
 
 .box-2 td {
-  border: 1px solid #D18B21
+  border: 1px solid #D18B21;
+}
+
+
+.my-form label{
+    display:block;
+}
+.list-me li {
+    border-bottom:1px dotted #333;
+}
+
+.floating {
+    float:left;
+    width:30%;
+    border: 1px solid rgb(148, 144, 144);
+    padding:10px;
+    box-sizing: border-box;
+    margin-top:10px;
+
 }
